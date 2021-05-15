@@ -55,8 +55,8 @@ reset.addEventListener("click",function()
 {
     check = true;
     input.value = 0;
-    score1.style.color = "black";
-    score2.style.color = "black";
+    score1.classList.remove("winner");
+    score2.classList.remove("winner");
     p1score = 0;
     p2score = 0;
     finalScore = 0;
